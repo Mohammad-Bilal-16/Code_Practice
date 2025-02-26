@@ -1,4 +1,4 @@
-package methods;
+package Methods;
 public class StaticMethodCall {
     static int m1 (){
         int i = 10;
