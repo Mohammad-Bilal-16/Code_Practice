@@ -3,12 +3,12 @@ package Objects;
 public class Demo {
     public static void main(String[] args) {
         Demo demo =  new Demo();
-        Person person = demo.get();
+        Persons person = demo.get();
         System.out.println(person.id + " " + person.name);
     }
 
-    Person get(){
-        Person person = new Person();
+    Persons get(){
+        Persons person = new Persons();
         person.id = 10;
         person.name = "Bilal";
 
